@@ -1,4 +1,4 @@
-# HTML advanced :computer:
+# Holbertonschool-Web-Development :computer:
 
 ## **Table of Contents** :card_index_dividers:
 
