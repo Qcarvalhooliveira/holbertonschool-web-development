@@ -112,3 +112,57 @@ main {
     font-size: 14px;
     box-shadow: 3px 3px 10px 3px rgba(0.25,0.25,0.25,0.25);
 }
+
+.pros{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.pros h2 {
+    font-weight: 400;
+    font-size: 32px;
+}
+.highlight{
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.avatar{
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1009px;
+    height: 237px;
+   
+}
+.avatar div {
+    width: 150px;
+    height: 237px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  line-height: 0;
+    
+}
+.avatar div img {
+    max-width: 100%; 
+    height: auto; 
+}
+.avatar div h2 {
+    height: 27px;
+    line-height: 27px;
+    font-size: 18px;
+}
+.avatar div p {
+    margin-top: 0;
+    height: 48px;
+    line-height: 24px;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+}
