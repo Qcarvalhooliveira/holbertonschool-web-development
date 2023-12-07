@@ -1,0 +1,35 @@
+body {
+    margin:0;
+    background-color: #071629;
+    
+    width: 1440px;
+    height: 3718px;
+    background-image: 
+    radial-gradient(circle at center, rgba(41, 48, 61, 0) 0%, #071629 100%),
+    linear-gradient(rgba(41, 48, 61, 0.5), rgba(41, 48, 61, 0.5)),
+    url('./images/Bitmap.svg');
+    background-repeat: no-repeat;
+    background-size:  1440px auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1103.41px;
+    height: 29.46px;
+    padding: 40.58px 168.295px;
+  
+}
+main {
+    padding: 40.58px 168.295px;
+   
+  
+    
+    background-position: top center;
+    background-blend-mode: normal, color, normal;
+   
+    color: aliceblue;
+    
+    
+}
