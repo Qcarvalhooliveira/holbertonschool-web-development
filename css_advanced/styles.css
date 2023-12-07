@@ -4,6 +4,8 @@ body {
     width: 1440px;
     height: 3718px;
     position: relative;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif; 
 }
 
 body::before {
@@ -54,19 +56,59 @@ header{
     height: 15px;
 }
 .menu a {
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Source Sans Pro', sans-serif; 
+    text-decoration: none; 
     font-size: 12px;
     font-weight: 700; 
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 main {
     padding: 40.58px 168.295px;  
     background-position: top center;
     background-blend-mode: normal, color, normal;
-   
-    color: aliceblue;
+
+}
+
+.Title{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 243px;
     
+}
+
+.Title h1{
+    margin-top: 0;
+    font-size: 120px;
+    font-weight: 700px; 
+    width: 684px;
+    height: 50px;
+}
+
+.Title p{
+    margin-top: 0;
+   text-align: justify;
+   -webkit-text-align-last: justify;
+   text-align-last: justify; 
+    width: 253px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 700; 
+
+}
+
+.Title button{
     
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #C271FF;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 3px 3px 10px 3px rgba(0.25,0.25,0.25,0.25);
 }
