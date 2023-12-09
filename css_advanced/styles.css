@@ -418,11 +418,13 @@ footer{
     height: 30px; 
     gap: 736px;
    
+   
 }
 
 .footerImg{
     width: 169px;
     height: 30px; 
+  
 }
 
 .footerLogo1{
@@ -431,6 +433,13 @@ footer{
     justify-content: space-between;
     width: 130px;
     height: 30px; 
+  
+}
+
+.footerLogo1 img {
+    width: 30px;
+    height: 30px;
+
 }
 
 footer p{
@@ -441,6 +450,16 @@ footer p{
     height: 15px; 
     font-size: 12px;
     font-weight: 400; 
-    padding-left: 450px;
+ 
+    text-align: center;
+  
 
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    align-items: center;
+   
 }
