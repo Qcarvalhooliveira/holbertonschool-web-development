@@ -210,11 +210,27 @@ header{
     padding: 0 31px;
     color: #071629;
  }
-
  .video {
     width: 255px;
-    height: 154px;
- }
+    height: 154px;   
+}
+.play {
+    background-attachment: fixed;
+    position: relative;
+}
+
+.play::after {
+    content: ''; 
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 64px; 
+    height: 64px;
+   background-image: url('./images/play.png');
+   background-size: cover;
+   
+}
 
  .tutorials h2 {
     font-size: 16px;
