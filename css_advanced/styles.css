@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 body {
     width: 1440px;
     height: 1093px;
@@ -34,25 +38,27 @@ header{
 }
 
 .Title{
-    margin-top: 100px;
+    margin-top: 110px;
     margin-left:-8px ;
+    height: 262px;
     display: flex;
     flex-direction: column;
     align-items: center; 
-    height: 243px;
+ 
+  
     
 }
 
 .Title h1{
-    margin-top: 0;
+
     font-size: 120px;
     font-weight: 700px; 
-    width: 684px;
-    height: 50px;
+   
+    
+   
 }
 
 .Title p{
-    margin-top: 0;
    text-align: justify;
    -webkit-text-align-last: justify;
    text-align-last: justify; 
@@ -64,7 +70,7 @@ header{
 }
 
 .Title button{
-    
+    margin-top: 30px;
     width: 162px;
     height: 44px;
     border-radius: 22px;
@@ -124,7 +130,7 @@ header{
     font-size: 18px;
 }
 .avatar div p {
-    margin-top: 0;
+   
     height: 48px;
     line-height: 24px;
     font-style: italic;
@@ -134,7 +140,8 @@ header{
 
 .testimonials{
     margin-top: 115px;
-    margin-left: -9px;
+    
+    width: 100%;
     background-color: #c271ff;
     display: flex;
     justify-content: center;
@@ -145,6 +152,7 @@ header{
   .testimonialsDiv{
     display: flex;
     align-items: center;
+    justify-content: space-between;
  
     width: 943px;
     height: 160px;
@@ -155,21 +163,29 @@ header{
     margin-right: 53px;
   }
 
-  
+  .testimonailsText {
+    line-height: 33.6px;
+    height: 158px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .person-name {
     font-weight: bold;
-    margin-left: 40px ;
    
   }
   
   .weather-presenter {
     font-style: italic;
-    margin-left: 40px ;
+  
    
   }
 
   .tutorials{
     margin-top: 115px;
+    margin-bottom: 115px;
+    
   }
   
   .tutorials h1 {
@@ -240,5 +256,191 @@ font-size: 14px;
 font-weight: 400;
  }
 
+.membership {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 502px;
+    background-color: #071629;
+    
+}
 
+.membership h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 58px;
+    width: 234px;
+    height: 40px;
+    font-weight: 200;
+    font-size: 32px;
+}
+.membership h2{
+    width: 256px;
+    height: 26px;
+    font-size: 18px; 
+    font-weight: 600;
+}
 
+.membership img{
+    width: 43.66px;
+    height: 35.35px;
+}
+
+.membership p{
+    width: 221px;
+    height: 52px;
+    font-size: 14px; 
+    font-weight: 400; 
+}
+
+.membership span{
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.membership div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.smileContainer{
+    width: 1136px;
+    height: 153px;
+    gap: 27px;
+    padding-bottom: 85px;
+}
+
+.smile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 257px;
+    height: 153px;
+   text-align: center;
+    
+    
+}
+
+.membership button{
+    margin-bottom: 52px;
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #C271FF;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 3px 3px 10px 3px rgba(0.25,0.25,0.25,0.25);
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 920px;
+    height: 707px;
+    padding-top: 67px;
+    padding-left: 249px;
+    padding-bottom: 84px;
+  
+}
+
+.faq h1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 136px;
+    height: 75px;
+    color: #071629; 
+    font-size: 60px; 
+    font-weight: 300;
+  
+}
+
+.faq h2{
+    width: 145px;
+    height: 20px;
+    color: #071629;
+    font-size: 16px;
+    font-weight: 700; 
+   
+}
+
+.faq p{
+    width: 350px;
+    height: 192px;
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 30px; 
+}
+
+.faqContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 220px;
+    padding-bottom: 74px;
+  
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 249px; 
+    background-color: #071629;
+}
+
+.footerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1035px;
+    height: 30px; 
+    gap: 736px;
+   
+}
+
+.footerImg{
+    width: 169px;
+    height: 30px; 
+}
+
+.footerLogo1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    height: 30px; 
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 15px; 
+    font-size: 12px;
+    font-weight: 400; 
+    padding-left: 450px;
+
+}
